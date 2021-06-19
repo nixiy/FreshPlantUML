@@ -1,0 +1,39 @@
+@startuml test
+!include pu.conf
+title Fresh PlantUML
+header [nixiy]
+
+' config
+actor actor
+box box
+  participant A
+  participant B
+end box
+box box
+  participant C
+  participant D
+end box
+database DB
+
+' graph
+actor -> A: call A
+  note over A: Comment
+  A -> B: call B
+  A <-- B: return B
+  A -> C: call C
+    group Group
+      create D
+      C -> D: new D
+      C <-- D: instance D
+      C -> D: call D
+        note over D: DB access↓
+        group D -> DB
+          D -> DB: getUserData
+          D <-- DB: UserData
+        end
+      C <-- D: call D
+    end
+  A <-- C: return C
+actor <-- A: return A
+
+@enduml
