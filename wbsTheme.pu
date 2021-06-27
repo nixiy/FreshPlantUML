@@ -1,0 +1,33 @@
+<style>
+wbsDiagram,mindmapDiagram {
+  node {
+    RoundCorner 15
+    LineThickness 0 //枠無し
+    margin 3
+    :depth(0) {
+      BackgroundColor #53B0AEBF
+    }
+    :depth(1) {
+      BackgroundColor #FA9A85FF
+    }
+    :depth(2) {
+      BackgroundColor #FA9A85CC
+    }
+    :depth(3) {
+      BackgroundColor #FA9A8599
+    }
+    :depth(4) {
+      BackgroundColor #FA9A8566
+    }
+    :depth(5) {
+      BackgroundColor #FA9A8533
+    }
+  }
+  arrow {
+    LineColor  #99999999
+  }
+  boxless {
+    FontColor LightGrey
+  }
+}
+</style>
