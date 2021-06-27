@@ -1,0 +1,31 @@
+@startmindmap mindmap
+header [nixiy]
+skinparam style strictuml
+!include wbsTheme.pu
+
+* wbs
+** sub
+*** subb
+*** subb
+
+** sub
+*** subb
+**** subbb
+***** subbbb
+***** subbbb
+**** subbb
+***** subbbb
+****** subbbbb
+******* subbbbbb
+******* subbbbbb
+****** subbbbb
+***** subbbb
+*** subb
+**** subbb
+***** subbbb
+***** subbbb
+**** subbb
+***** subbbb
+***** subbbb
+
+@endmindmap
