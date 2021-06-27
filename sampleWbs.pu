@@ -1,0 +1,22 @@
+@startwbs wbs
+header [nixiy]
+skinparam style strictuml
+!include wbsTheme.pu
+
+* wbs
+** sub
+*** subb
+**** subbb
+***** subbbb
+****** subbbbb
+******* subbbbbb
+
+** sub
+*** subb
+*** subb
+**_ sub
+***_ subb
+****_ subbb
+***_ subb
+
+@endwbs

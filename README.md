@@ -4,6 +4,7 @@ This is a refreshing color scheme for PlantUML.
 
 (* We are currently specializing in sequence diagrams, so we have not checked it with other diagrams)
 
+## Sequence
 ![Example](/out/example/test.svg)
 
 
@@ -15,3 +16,16 @@ This is a refreshing color scheme for PlantUML.
 
 @enduml
 ```
+
+## WBS
+
+```pu
+@startwbs wbs
+!include wbsTheme.pu
+
+// Contents
+
+@endwbs
+```
+
+![Example](/out/example/wbs.svg)
